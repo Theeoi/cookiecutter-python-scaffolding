@@ -3,5 +3,6 @@
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "project_description": "",
     "author_name": "Theodor Blom",
-    "author_email": "me@theodorblom.com"
+    "author_email": "me@theodorblom.com",
+    "github_username": "Theeoi"
 }

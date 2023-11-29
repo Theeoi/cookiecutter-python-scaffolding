@@ -5,7 +5,7 @@
   build-backend = "setuptools.build_meta"
 
 [project]
-  name = "{{ cookiecutter.project_name }}"
+  name = "{{ cookiecutter.project_slug }}"
   version = "0.0.1"
   authors = [
     { name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.author_email }}" },
@@ -25,7 +25,7 @@
   ]
 
 [project.urls]
-  homepage = "https://github.com/[USERNAME]/{{ cookiecutter.project_slug }}"
+  homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
 
 [project.scripts]
   pipump = "[PACKAGE].[MODULE]:[FUNCTION]"
