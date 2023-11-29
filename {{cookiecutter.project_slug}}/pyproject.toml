@@ -28,4 +28,4 @@
   homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
 
 [project.scripts]
-  pipump = "[PACKAGE].[MODULE]:[FUNCTION]"
+  {{ cookiecutter.project_slug }} = "main:main"
