@@ -1,4 +1,4 @@
-# Project Title
+# {{ cookiecutter.project_name }}
 
 *Short catchy description*
 
@@ -50,4 +50,4 @@ Room for Improvement:
 
 ## Contact
 
-This code was written and maintained by [Theodor Blom](mailto:me@theodorblom.com).
+This code was written and maintained by [{{ cookiecutter.author_name }}](mailto:{{ cookiecutter.author_email }}).
