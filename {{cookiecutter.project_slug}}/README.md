@@ -1,5 +1,7 @@
 # {{ cookiecutter.project_name }}
 
+![Run Pytest](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/test.yml/badge.svg?label=Tests)
+
 {{ cookiecutter.project_description }}
 
 ## General Information
