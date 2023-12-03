@@ -1,6 +1,6 @@
 # {{ cookiecutter.project_name }}
 
-*Short catchy description*
+{{ cookiecutter.project_description }}
 
 ## General Information
 
@@ -8,7 +8,7 @@
 
 ### Technologies
 
-- Python >=3.9
+- Python =3.12
 - *List of prominent packages*
 
 ### Features
