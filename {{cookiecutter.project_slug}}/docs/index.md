@@ -14,7 +14,7 @@ If you are setting up the project for the first time you an read the full [Getti
 
 * [Tutorials](tutorial/index.md)
 
-Learn how to use the {{ cookiecutten.project_name }} library in bite-sized chunks.
+Learn how to use the {{ cookiecutter.project_name }} library in bite-sized chunks.
 
 * [How-to-guides](how-to-guide/index.md)
 
