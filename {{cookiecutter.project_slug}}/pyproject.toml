@@ -24,6 +24,14 @@
     "pytest >= 7, < 8",
     "pytest-cov >= 4, < 5",
   ]
+  docs = [
+    "mkdocs >= 1.5.3, < 2",
+    "mkdocstrings[python] >= 0.24.0, < 1",
+    "mkdocs-material >= 9.5.2, < 10",
+    "mkdocs-gen-files >= 0.5.0, < 1",
+    "mkdocs-literate-nav >= 0.6.1, < 1",
+    "black >= 23.12.0, < 24",
+  ]
 
 [tools.pytest.ini_options]
   addopts = "-v --cov='src'"
@@ -33,4 +41,4 @@
   homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
 
 [project.scripts]
-  {{ cookiecutter.project_slug }} = "main:main"
+  {{ cookiecutter.project_slug }} = "{{ cookiecutter.project_slug }}.main:main"

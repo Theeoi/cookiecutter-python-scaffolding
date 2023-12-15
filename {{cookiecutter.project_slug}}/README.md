@@ -18,23 +18,48 @@
 - *List of features*
 - More features coming! See [Roadmap](#roadmap)..
 
+### Project Layout
+
+    .github/
+    
+    docs/
+
+    scripts/
+
+    src/
+
+        {{cookiecutter.project_slug}}/
+        README.md
+
+    tests/
+
+        functional/
+        unit/
+        conftest.py
+
+    .gitignore
+    pyproject.toml
+    README.md
+
 ## Setup
 
 ### Usage
 
 To use the package do the following:
 
-1. Clone the repo and open it as the working directory
-2. *Continue the list according to your needs*
+1. Clone the repo and open it as the working directory.
+2. Run `python -m pip install .` to install the package.
+3. Run `{{ cookiecutter.project_slug }}` to execute the main package script.
 
 ### Contributing
 
-To develop this code you should do the following:
+To develop this package you should do the following:
 
-1. Follow the steps outlined in [Usage](#usage) to get the package running
-2. Create a Python virtual environment using your prefered program
-3. Activate the virtual environment and run `python -m pip install .[dev]` to install the development dependancies
-4. *Continue the list accoring to your needs*
+1. Follow the steps outlined in [Usage](#usage) to get the package running.
+2. Create a Python virtual environment using your prefered method and activate it.
+3. Run `python -m pip install .[dev]` to install the development dependancies.
+4. Run `python -m pip install .[docs]` to install the documentation dependancies.
+5. *Continue the list accoring to your needs*
 
 ## Project Status
 
@@ -52,4 +77,4 @@ Room for Improvement:
 
 ## Contact
 
-This code was written and maintained by [{{ cookiecutter.author_name }}](mailto:{{ cookiecutter.author_email }}).
+This code was written by [{{ cookiecutter.author_name }}](mailto:{{ cookiecutter.author_email }}).
