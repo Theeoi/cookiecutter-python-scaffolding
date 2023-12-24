@@ -41,4 +41,4 @@
   homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
 
 [project.scripts]
-  {{ cookiecutter.project_slug }} = "{{ cookiecutter.project_slug }}.main:main"
+  {{ cookiecutter.project_slug }} = "{{ cookiecutter.main_package_name }}.main:main"
