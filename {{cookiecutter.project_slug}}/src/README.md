@@ -4,9 +4,9 @@
 
 ### File Overview
 
-    {{ cookiecutter.project_slug }}/
+    {{ cookiecutter.main_package_name }}/
 
         __init__.py
         main.py
 
-## {{ cookiecutter.project_slug }}
+## {{ cookiecutter.main_package_name }}
