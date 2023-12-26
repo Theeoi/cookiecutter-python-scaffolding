@@ -33,7 +33,7 @@
     "black >= 23.12.0, < 24",
   ]
 
-[tools.pytest.ini_options]
+[tool.pytest.ini_options]
   addopts = "-v --cov='src'"
   testpaths = "tests"
 
