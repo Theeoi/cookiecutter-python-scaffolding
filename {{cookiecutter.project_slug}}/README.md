@@ -1,6 +1,8 @@
 # {{ cookiecutter.project_name }}
 
-![Run Pytest](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/test.yml/badge.svg?label=Tests)
+![Pytest Status](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/test.yml/badge.svg?label=Tests)
+![Coverage Status](https://coveralls.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/badge.svg?branch=main)
+![Documentation Status](https://readthedocs.org/projects/{{ cookiecutter.project_slug }}/badge/?version=latest)
 
 {{ cookiecutter.project_description }}
 
@@ -38,6 +40,9 @@
         conftest.py
 
     .gitignore
+    .readthedocs.yml
+    LICENCE.md
+    mkdocs.yml
     pyproject.toml
     README.md
 
@@ -77,4 +82,4 @@ Room for Improvement:
 
 ## Contact
 
-This code was written by [{{ cookiecutter.author_name }}](mailto:{{ cookiecutter.author_email }}).
+This code is written and maintained by [{{ cookiecutter.author_name }}](mailto:{{ cookiecutter.author_email }}).
